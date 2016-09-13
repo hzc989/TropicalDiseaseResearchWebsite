@@ -1,0 +1,1390 @@
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+Traceback (most recent call last):
+  File "manage.py", line 15, in <module>
+    manager.run()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_script/__init__.py", line 412, in run
+    result = self.handle(sys.argv[0], sys.argv[1:])
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_script/__init__.py", line 383, in handle
+    res = handle(*args, **config)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_script/commands.py", line 425, in __call__
+    **self.server_options)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/app.py", line 843, in run
+    run_simple(host, port, self, **options)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/werkzeug/serving.py", line 677, in run_simple
+    s.bind((hostname, port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 122-146-778
+10.211.55.2 - - [12/Sep/2016 04:23:19] "GET /auth/register HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 2000, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1991, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1567, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py", line 33, in register
+    form = RegistrationForm()
+NameError: global name 'RegistrationForm' is not defined
+10.211.55.2 - - [12/Sep/2016 04:23:19] "GET /auth/register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+10.211.55.2 - - [12/Sep/2016 04:23:19] "GET /auth/register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+10.211.55.2 - - [12/Sep/2016 04:23:19] "GET /auth/register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+10.211.55.2 - - [12/Sep/2016 04:23:19] "GET /auth/register?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+10.211.55.2 - - [12/Sep/2016 04:23:19] "GET /auth/register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10.211.55.2 - - [12/Sep/2016 04:23:19] "GET /auth/register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 122-146-778
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 122-146-778
+/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py:33: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = RegistrationForm()
+10.211.55.2 - - [12/Sep/2016 04:23:51] "GET /auth/register HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "manage.py", line 3, in <module>
+    from app import create_app,db
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/__init__.py", line 4, in <module>
+    from flask import Flask, render_template 
+ImportError: No module named flask
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+10.211.55.2 - - [14/Sep/2016 03:21:58] "GET / HTTP/1.1" 200 -
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/models.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/models.py', reloading
+Exception in thread Thread-1 (most likely raised during interpreter shutdown):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 552, in __bootstrap_inner
+  File "/usr/lib/python2.7/threading.py", line 505, in run
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/werkzeug/serving.py", line 659, in inner
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/werkzeug/serving.py", line 499, in serve_forever
+  File "/usr/lib/python2.7/SocketServer.py", line 241, in serve_forever
+  File "/usr/lib/python2.7/threading.py", line 389, in set
+  File "/usr/lib/python2.7/threading.py", line 296, in notifyAll
+<type 'exceptions.TypeError'>: 'NoneType' object is not callable
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/models.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/models.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/models.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/models.py', reloading
+Exception in thread Thread-1 (most likely raised during interpreter shutdown):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 552, in __bootstrap_inner
+  File "/usr/lib/python2.7/threading.py", line 505, in run
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/werkzeug/serving.py", line 659, in inner
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/werkzeug/serving.py", line 499, in serve_forever
+  File "/usr/lib/python2.7/SocketServer.py", line 241, in serve_forever
+  File "/usr/lib/python2.7/threading.py", line 389, in set
+  File "/usr/lib/python2.7/threading.py", line 296, in notifyAll
+<type 'exceptions.TypeError'>: 'NoneType' object is not callable
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/models.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+Traceback (most recent call last):
+  File "manage.py", line 4, in <module>
+    from app.models import Role, User, Post
+ImportError: cannot import name Role
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+Traceback (most recent call last):
+  File "manage.py", line 4, in <module>
+    from app.models import Role, User, Post
+ImportError: cannot import name Role
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+Traceback (most recent call last):
+  File "manage.py", line 7, in <module>
+    app = create_app(os.getenv('FLASK_CONFIG') or 'default')
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/__init__.py", line 30, in create_app
+    from .auth import auth as auth_blueprint
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/__init__.py", line 18, in <module>
+    from . import views
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py", line 17, in <module>
+    from .forms import LoginForm, RegistrationForm
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/forms.py", line 14, in <module>
+    class RegistrationForm(Form):
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/forms.py", line 21, in RegistrationForm
+    role = SelectField('Role', choices=[('user','User'), ('admin','Admin'),
+NameError: name 'SelectField' is not defined
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+10.211.55.2 - - [14/Sep/2016 03:58:22] "GET / HTTP/1.1" 200 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py:33: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = RegistrationForm()
+10.211.55.2 - - [14/Sep/2016 03:58:26] "GET /auth/register HTTP/1.1" 200 -
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/forms.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/forms.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/forms.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/forms.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/forms.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/forms.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py:33: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = RegistrationForm()
+10.211.55.2 - - [14/Sep/2016 04:03:18] "GET /auth/register HTTP/1.1" 200 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py:33: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = RegistrationForm()
+10.211.55.2 - - [14/Sep/2016 04:03:56] "POST /auth/register HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 2000, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1991, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1567, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py", line 34, in register
+    if form.validate_on_submit():
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_wtf/form.py", line 161, in validate_on_submit
+    return self.is_submitted() and self.validate()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/wtforms/form.py", line 310, in validate
+    return super(Form, self).validate(extra)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/wtforms/form.py", line 152, in validate
+    if not field.validate(self, extra):
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/wtforms/fields/core.py", line 204, in validate
+    stop_validation = self._run_validation_chain(form, chain)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/wtforms/fields/core.py", line 224, in _run_validation_chain
+    validator(form, self)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/forms.py", line 34, in validate_username
+    if User.query.filter_by(username=field.data).first():
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2695, in first
+    ret = list(self[0:1])
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2487, in __getitem__
+    return list(res)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2795, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2818, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 945, in execute
+    return meth(self, multiparams, params)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/sqlalchemy/sql/elements.py", line 263, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1053, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1189, in _execute_context
+    context)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1393, in _handle_dbapi_exception
+    exc_info
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 202, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1182, in _execute_context
+    context)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 462, in do_execute
+    cursor.execute(statement, parameters)
+OperationalError: (sqlite3.OperationalError) no such table: users [SQL: u'SELECT users.id AS users_id, users.username AS users_username, users.truename AS users_truename, users.role AS users_role, users.password_hash AS users_password_hash, users.member_since AS users_member_since, users.permit_login AS users_permit_login \nFROM users \nWHERE users.username = ?\n LIMIT ? OFFSET ?'] [parameters: (u'hzc', 1, 0)]
+10.211.55.2 - - [14/Sep/2016 04:03:56] "GET /auth/register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 04:03:56] "GET /auth/register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 04:03:56] "GET /auth/register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 04:03:56] "GET /auth/register?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 04:03:56] "GET /auth/register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 04:03:57] "GET /auth/register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/forms.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+10.211.55.2 - - [14/Sep/2016 04:25:07] "GET / HTTP/1.1" 200 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py:33: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = RegistrationForm()
+10.211.55.2 - - [14/Sep/2016 04:25:16] "GET /auth/register HTTP/1.1" 200 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py:33: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = RegistrationForm()
+10.211.55.2 - - [14/Sep/2016 04:25:29] "POST /auth/register HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 2000, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1991, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1567, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py", line 39, in register
+    db.session.add(user)
+NameError: global name 'db' is not defined
+10.211.55.2 - - [14/Sep/2016 04:25:29] "GET /auth/register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 04:25:29] "GET /auth/register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 04:25:29] "GET /auth/register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 04:25:29] "GET /auth/register?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 04:25:30] "GET /auth/register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py:34: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = RegistrationForm()
+10.211.55.2 - - [14/Sep/2016 04:29:10] "POST /auth/register HTTP/1.1" 302 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py:23: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = LoginForm()
+10.211.55.2 - - [14/Sep/2016 04:29:10] "GET /auth/login HTTP/1.1" 200 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py:23: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = LoginForm()
+10.211.55.2 - - [14/Sep/2016 04:29:16] "POST /auth/login HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 2000, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1991, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1567, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py", line 25, in login
+    user = User.query.filter_by(email=form.email.data).first()
+AttributeError: 'LoginForm' object has no attribute 'email'
+10.211.55.2 - - [14/Sep/2016 04:29:16] "GET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 04:29:16] "GET /auth/login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 04:29:16] "GET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 04:29:16] "GET /auth/login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 04:29:16] "GET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 04:29:16] "GET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py:23: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = LoginForm()
+10.211.55.2 - - [14/Sep/2016 04:30:14] "POST /auth/login HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 2000, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1991, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1567, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py", line 27, in login
+    login_user(user, form.remember_me.data)
+NameError: global name 'login_user' is not defined
+10.211.55.2 - - [14/Sep/2016 04:30:14] "GET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 04:30:14] "GET /auth/login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 04:30:14] "GET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 04:30:15] "GET /auth/login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 04:30:15] "GET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py:23: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = LoginForm()
+10.211.55.2 - - [14/Sep/2016 04:31:31] "POST /auth/login HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 2000, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1991, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1567, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py", line 27, in login
+    login_user(user, form.remember_me.data)
+NameError: global name 'login_user' is not defined
+10.211.55.2 - - [14/Sep/2016 04:31:31] "GET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 04:31:31] "GET /auth/login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 04:31:31] "GET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 04:31:32] "GET /auth/login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 04:31:32] "GET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 04:31:32] "GET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py:24: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = LoginForm()
+10.211.55.2 - - [14/Sep/2016 04:31:39] "POST /auth/login HTTP/1.1" 302 -
+10.211.55.2 - - [14/Sep/2016 04:31:39] "GET / HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 2000, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1991, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1567, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/main/views.py", line 33, in index
+    return render_template('index.html')
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    context, ctx.app)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/templating.py", line 116, in _render
+    rv = template.render(context)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/jinja2/environment.py", line 989, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/jinja2/environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/base.html", line 1, in top-level template code
+    {% extends "bootstrap/base.html" %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 1, in top-level template code
+    {% block doc -%}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 4, in block "doc"
+    {%- block html %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 20, in block "html"
+    {% block body -%}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 21, in block "body"
+    {% block navbar %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/base.html", line 22, in block "navbar"
+    <li><a href="{{ url_for('auth.logout') }}">Sign Out</a></li>
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/helpers.py", line 332, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1811, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/helpers.py", line 322, in url_for
+    force_external=external)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/werkzeug/routing.py", line 1758, in build
+    raise BuildError(endpoint, values, method, self)
+BuildError: Could not build url for endpoint 'auth.logout'. Did you mean 'auth.login' instead?
+10.211.55.2 - - [14/Sep/2016 04:31:39] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 04:31:39] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 04:31:39] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 04:31:40] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 04:31:40] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 04:31:40] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py:24: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = LoginForm()
+10.211.55.2 - - [14/Sep/2016 04:38:44] "GET /auth/login HTTP/1.1" 200 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py:24: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = LoginForm()
+10.211.55.2 - - [14/Sep/2016 04:38:50] "POST /auth/login HTTP/1.1" 302 -
+10.211.55.2 - - [14/Sep/2016 04:38:50] "GET / HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 2000, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1991, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1567, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/main/views.py", line 33, in index
+    return render_template('index.html')
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    context, ctx.app)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/templating.py", line 116, in _render
+    rv = template.render(context)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/jinja2/environment.py", line 989, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/jinja2/environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/base.html", line 1, in top-level template code
+    {% extends "bootstrap/base.html" %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 1, in top-level template code
+    {% block doc -%}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 4, in block "doc"
+    {%- block html %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 20, in block "html"
+    {% block body -%}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 21, in block "body"
+    {% block navbar %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/base.html", line 22, in block "navbar"
+    <li><a href="{{ url_for('auth.logout') }}">Sign Out</a></li>
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/helpers.py", line 332, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1811, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/helpers.py", line 322, in url_for
+    force_external=external)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/werkzeug/routing.py", line 1758, in build
+    raise BuildError(endpoint, values, method, self)
+BuildError: Could not build url for endpoint 'auth.logout'. Did you mean 'auth.login' instead?
+10.211.55.2 - - [14/Sep/2016 04:38:50] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 04:38:50] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 04:38:50] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 04:38:50] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 04:38:51] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+Traceback (most recent call last):
+  File "manage.py", line 7, in <module>
+    app = create_app(os.getenv('FLASK_CONFIG') or 'default')
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/__init__.py", line 30, in create_app
+    from .auth import auth as auth_blueprint
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/__init__.py", line 18, in <module>
+    from . import views
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py", line 34, in <module>
+    @login_required
+NameError: name 'login_required' is not defined
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+Traceback (most recent call last):
+  File "manage.py", line 7, in <module>
+    app = create_app(os.getenv('FLASK_CONFIG') or 'default')
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/__init__.py", line 30, in create_app
+    from .auth import auth as auth_blueprint
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/__init__.py", line 18, in <module>
+    from . import views
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py", line 34, in <module>
+    @login_required
+NameError: name 'login_required' is not defined
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+usage: manage.py [-?] {shell,runserver} ...
+manage.py: error: too many arguments
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+10.211.55.2 - - [14/Sep/2016 04:45:50] "GET /index HTTP/1.1" 404 -
+10.211.55.2 - - [14/Sep/2016 04:45:55] "GET /auth/logout HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 2000, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1991, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1567, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py", line 36, in logout
+    logout_user()
+NameError: global name 'logout_user' is not defined
+10.211.55.2 - - [14/Sep/2016 04:45:55] "GET /auth/logout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 04:45:55] "GET /auth/logout?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 04:45:55] "GET /auth/logout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 04:45:55] "GET /auth/logout?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 04:45:55] "GET /auth/logout?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 04:45:55] "GET /auth/logout?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+10.211.55.2 - - [14/Sep/2016 04:46:38] "GET /auth/logout HTTP/1.1" 302 -
+10.211.55.2 - - [14/Sep/2016 04:46:38] "GET / HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 04:58:10] "GET / HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 04:58:11] "GET /favicon.ico HTTP/1.1" 404 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py:24: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = LoginForm()
+10.211.55.2 - - [14/Sep/2016 04:59:15] "GET /auth/login HTTP/1.1" 200 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py:24: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = LoginForm()
+10.211.55.2 - - [14/Sep/2016 04:59:23] "POST /auth/login HTTP/1.1" 200 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py:24: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = LoginForm()
+10.211.55.2 - - [14/Sep/2016 04:59:28] "POST /auth/login HTTP/1.1" 200 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py:24: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = LoginForm()
+10.211.55.2 - - [14/Sep/2016 05:03:32] "POST /auth/login HTTP/1.1" 200 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py:24: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = LoginForm()
+10.211.55.2 - - [14/Sep/2016 05:03:36] "POST /auth/login HTTP/1.1" 200 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py:24: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = LoginForm()
+10.211.55.2 - - [14/Sep/2016 05:03:38] "POST /auth/login HTTP/1.1" 200 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py:24: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = LoginForm()
+10.211.55.2 - - [14/Sep/2016 05:03:41] "POST /auth/login HTTP/1.1" 200 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py:24: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = LoginForm()
+10.211.55.2 - - [14/Sep/2016 05:03:44] "POST /auth/login HTTP/1.1" 200 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py:24: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = LoginForm()
+10.211.55.2 - - [14/Sep/2016 05:03:47] "POST /auth/login HTTP/1.1" 200 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py:24: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = LoginForm()
+10.211.55.2 - - [14/Sep/2016 05:03:50] "POST /auth/login HTTP/1.1" 200 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py:24: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = LoginForm()
+10.211.55.2 - - [14/Sep/2016 05:12:11] "POST /auth/login HTTP/1.1" 302 -
+10.211.55.2 - - [14/Sep/2016 05:12:11] "GET / HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 05:12:14] "GET /auth/logout HTTP/1.1" 302 -
+10.211.55.2 - - [14/Sep/2016 05:12:14] "GET / HTTP/1.1" 200 -
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py:24: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = LoginForm()
+10.211.55.2 - - [14/Sep/2016 06:05:48] "GET /auth/login HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 06:05:52] "GET /auth/url_for('auth.register') HTTP/1.1" 404 -
+10.211.55.2 - - [14/Sep/2016 06:06:29] "GET /auth/url_for('auth.register') HTTP/1.1" 404 -
+10.211.55.2 - - [14/Sep/2016 06:06:33] "GET /auth/url_for('auth.register') HTTP/1.1" 404 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py:24: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = LoginForm()
+10.211.55.2 - - [14/Sep/2016 06:06:37] "GET /auth/login HTTP/1.1" 200 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py:42: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = RegistrationForm()
+10.211.55.2 - - [14/Sep/2016 06:06:40] "GET /auth/register HTTP/1.1" 200 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py:42: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = RegistrationForm()
+10.211.55.2 - - [14/Sep/2016 06:06:57] "POST /auth/register HTTP/1.1" 200 -
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/forms.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/forms.py', reloading
+Exception in thread Thread-1 (most likely raised during interpreter shutdown):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 552, in __bootstrap_inner
+  File "/usr/lib/python2.7/threading.py", line 505, in run
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/werkzeug/serving.py", line 659, in inner
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/werkzeug/serving.py", line 499, in serve_forever
+  File "/usr/lib/python2.7/SocketServer.py", line 241, in serve_forever
+  File "/usr/lib/python2.7/threading.py", line 389, in set
+  File "/usr/lib/python2.7/threading.py", line 296, in notifyAll
+<type 'exceptions.TypeError'>: 'NoneType' object is not callable
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py:24: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = LoginForm()
+10.211.55.2 - - [14/Sep/2016 06:08:57] "GET /auth/login HTTP/1.1" 200 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py:24: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = LoginForm()
+10.211.55.2 - - [14/Sep/2016 06:09:03] "POST /auth/login HTTP/1.1" 302 -
+10.211.55.2 - - [14/Sep/2016 06:09:03] "GET / HTTP/1.1" 200 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py:57: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = ChangePasswordForm()
+10.211.55.2 - - [14/Sep/2016 06:09:19] "GET /auth/change-password HTTP/1.1" 200 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py:57: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = ChangePasswordForm()
+10.211.55.2 - - [14/Sep/2016 06:09:43] "POST /auth/change-password HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 2000, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1991, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1567, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py", line 59, in change_password
+    if current_user.verify_password(form.old_password.data):
+NameError: global name 'current_user' is not defined
+10.211.55.2 - - [14/Sep/2016 06:09:43] "GET /auth/change-password?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 06:09:43] "GET /auth/change-password?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 06:09:43] "GET /auth/change-password?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 06:09:43] "GET /auth/change-password?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 06:09:43] "GET /auth/change-password?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10.211.55.2 - - [14/Sep/2016 06:09:43] "GET /auth/change-password?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.bootstrap is deprecated, use flask_bootstrap instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.mail is deprecated, use flask_mail instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.moment is deprecated, use flask_moment instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.sqlalchemy is deprecated, use flask_sqlalchemy instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.login is deprecated, use flask_login instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/exthook.py:71: ExtDeprecationWarning: Importing flask.ext.script is deprecated, use flask_script instead.
+  .format(x=modname), ExtDeprecationWarning
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py:57: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = ChangePasswordForm()
+10.211.55.2 - - [14/Sep/2016 06:10:39] "POST /auth/change-password HTTP/1.1" 200 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/auth/views.py:57: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = ChangePasswordForm()
+10.211.55.2 - - [14/Sep/2016 06:10:50] "POST /auth/change-password HTTP/1.1" 302 -
+10.211.55.2 - - [14/Sep/2016 06:10:50] "GET / HTTP/1.1" 200 -
