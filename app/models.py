@@ -18,7 +18,8 @@ class User(UserMixin,db.Model):
     password_hash = db.Column(db.String(128))
     member_since = db.Column(db.DateTime(), default=datetime.utcnow)
     permit_login = db.Column(db.Boolean, default=True)
-    posts = db.relationship('Post', backref='author', lazy='dynamic')
+    paper_posts = db.relationship('Paper', backref='poster', lazy='dynamic')
+    content_posts = db.relationship('Content', backref='poster', lazy='dynamic')
     @property
     def password(self):
         raise AttributeError('password is not a readable attribute')
@@ -29,19 +30,37 @@ class User(UserMixin,db.Model):
         return check_password_hash(self.password_hash, password)
     
     def __repr__(self):
-        return '<User %r>' % self.name
+        return '<User %r>' % self.username
 
 @login_manager.user_loader
 def load_user(user_id):
     return User.query.get(int(user_id))
 
-class Post(db.Model):
-    __tablename__ = 'posts'
+class Paper(db.Model):
+    __tablename__ = 'papers'
     id = db.Column(db.Integer, primary_key=True)
-    content = db.Column(db.Text)
+    title = db.Column(db.String(64), index=True)
+    pdf_uri = db.Column(db.String(150))
+    tag = db.Column(db.Enum, nullable=True)
     timestamp = db.Column(db.DateTime, index=True, default=datetime.utcnow)
-    is_open = db.Column(db.Boolean, default=False)
-    author_id = db.Column(db.Integer, db.ForeignKey('users.id'))
+    type = db.Column(db.Enum('project_paper', 'related_paper', 'closed_paper'))
+    poster_uid = db.Column(db.Integer, db.ForeignKey('users.id'))
+    authors = db.Column(db.Enum, nullable=False)
+    journal = db.Column(db.String(64), nullable=False)
     
     def __repr__(self):
-        return '<Post %r>' % self.name
+        return '<Paper %r>' % self.name
+
+class Content(db.Model):
+    __tablename__ = 'contents'
+    id = db.Column(db.Integer, primary_key=True)
+    title = db.Column(db.String(64), index=True)
+    tag = db.Column(db.Enum, nullable=True)
+    addons_uri = db.Column(db.String(150))
+    content = db.Column(db.Text)
+    timestamp = db.Column(db.DateTime, index=True, default=datetime.utcnow)
+    type = db.Column(db.Enum('news', 'notice', 'datatools'))
+    poster_uid = db.Column(db.Integer, db.ForeignKey('users.id'))
+    
+    def __repr__(self):
+        return '<Content %r>' % self.title

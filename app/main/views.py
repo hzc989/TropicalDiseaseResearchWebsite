@@ -31,3 +31,7 @@ def index():
     #                        known=session.get('known', False),
     #                        current_time=datetime.utcnow())
     return render_template('index.html')
+
+@main.route('/intro/basic', methods=['GET'])
+def basic():
+    return render_template('intro/basic.html')

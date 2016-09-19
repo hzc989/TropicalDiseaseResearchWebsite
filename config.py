@@ -19,6 +19,9 @@ class Config:
     FLASKY_FOLLOWERS_PER_PAGE = 50
     FLASKY_COMMENTS_PER_PAGE = 30
     FLASKY_SLOW_DB_QUERY_TIME=0.5
+    UPLOADS_DEFAULT_DEST = os.path.join(basedir,'uploads')
+    ALLOWED_EXTENSIONS = [ 'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif', 'doc', \
+                         'docx', 'xls', 'xlsx', 'ppt', 'pptx']
 
     @staticmethod
     def init_app(app):

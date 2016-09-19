@@ -1,31 +1,53 @@
 {% extends "bootstrap/base.html" %}
-{% block title %}Flasky{% endblock %}
+{% block title %}国家重点研发计划--重要热带病传播相关的入侵媒介及其病原体的生物学特性研究{% endblock %}
 {% block navbar %}
-<div class="navbar navbar-inverse" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle"
-            data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">TDRW</a>
-        </div>
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-                <li><a href="/">Home</a></li>
-            </ul>
+<div class="container">
+    <div class="masthead">
+        <h3 class="text-muted"><b>国家重点研发计划--重要热带病传播相关的入侵媒介及其病原体的生物学特性研究</b></h3>
+        <h6 class="text-muted">National Research and Development Plan: Research on Biological Characteristics of the Tropical Disease Related Invasion vectors and Pathogens</h2>
+    </div>
+
+    <nav class="navbar navbar-default navbar-static" role="navigation">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav navbar-letf">
+                <li class="active"><a href="#">首页</a></li>
+                <li class="dropdown">
+                    <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    项目介绍<span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="{{url_for('main.basic') }}">关于项目</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="https://twitter.com/fat">项目进展</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="https://twitter.com/fat">发表文章</a></li>
+                    </ul>
+                </li>
+                <li><a>研究团队</a></li>
+                <li><a>学术交流</a></li>
+                <li class="dropdown">
+                    <a id="drop2" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  团队工具<span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="drop2">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="https://twitter.com/fat">数据分析</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="https://twitter.com/fat">团队工具</a></li>
+                    </ul>
+                </li>
+                {% if current_user.role in ["admin","superadmin"] %}
+                <li><a href="{{url_for('admin.index') }}">管理后台</a></li>
+                {% endif %}
+                </ul>
             <ul class="nav navbar-nav navbar-right">
                 {% if current_user.is_authenticated %}
-                <li><a href="{{ url_for('auth.logout') }}">Sign Out</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;{{current_user.username}}</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-cog"></span>&nbsp;修改密码</a></li>
+                <li><a href="{{ url_for('auth.logout') }}"><span class="glyphicon glyphicon-log-out"></span>&nbsp;退出登录</a></li>
                 {% else %}
-                <li><a href="{{ url_for('auth.login') }}">Sign In</a></li>
+                <li><a href="{{ url_for('auth.login') }}"><span class="glyphicon glyphicon-log-in"></span>&nbsp;登录</a></li>
+                <li><a href="{{ url_for('auth.login') }}"><span class="glyphicon glyphicon-registration-mark"></span>&nbsp;注册</a></li>
                 {% endif %}
             </ul>
         </div>
-    </div>
+    </nav>
 </div>
 {% endblock %}
 
@@ -39,6 +61,14 @@
     {% endfor %}
 
     {% block page_content %}{% endblock %}
-
 </div>
+    {% block footer %}
+<div class="footer">
+        <div class="navbar" style="margin-bottom:0px;margin-left:0px;margin-right:0px;clear:both;">
+            <hr>
+            <p class="text-center">联系我们：wuzhd@mail2.sysu.edu.cn │ 地址：中国广州市中山二路74号中山大学北校区（邮政编码：510080）│ Copyright © 2016 中山大学</p>
+        </div>
+</div> 
+    {% endblock %} 
 {% endblock %}
+

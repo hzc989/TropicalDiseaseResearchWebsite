@@ -51,9 +51,9 @@ def register():
         return redirect(url_for('auth.login'))
     return render_template('auth/register.html', form=form)
 
-@auth.route('/change-password', methods=['GET', 'POST'])
+@auth.route('/pwdReset', methods=['GET', 'POST'])
 @login_required
-def change_password():
+def pwdReset():
     form = ChangePasswordForm()
     if form.validate_on_submit():
         if current_user.verify_password(form.old_password.data):
@@ -63,4 +63,4 @@ def change_password():
             return redirect(url_for('main.index'))
         else:
             flash('Invalid password.')
-    return render_template("auth/change_password.html", form=form)
+    return render_template("auth/pwdReset.html", form=form)
