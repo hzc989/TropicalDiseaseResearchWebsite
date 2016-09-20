@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block title %}TDRW - 欢迎光临{% endblock %}
+{% block page_content %} 
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <ol class="breadcrumb">
+                    <li><a href="#">首页</a></li>
+                    <li class="active">新闻动态</li>
+                </ol>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 well">
+            <div class="text-center">
+              <h2>{{ content.title }}</h2>
+              <footer>{{ moment(content.timestamp).format('lll') }}</footer>
+              <br>
+            </div>
+            
+            <div class="col-md-10 col-md-offset-1" >
+                <div style="white-space:pre-wrap;WORD-WRAP:break-word;">{{ content.content }}</div>
+                {% if content.addons_uri %}
+                <hr>
+                <div class="panel panel-default">
+                    <div class="panel-heading">附件</div>
+                        <div class="panel-body">
+                        <ul class="list-unstyled">
+                            {% for (k,v) in eval(content.addons_uri) %}
+                            <li><a href="url_for('main.downld')">{{ k,v }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+          </div>
+        </div>
+    </div>
+{% endblock %}

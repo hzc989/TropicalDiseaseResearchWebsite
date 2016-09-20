@@ -25,7 +25,6 @@ class ContentForm(Form):
                                         ('datatools',u'数据工具')])
     title = StringField(u'标题', validators=[Required()])
     body = TextAreaField(u'正文', validators=[Required()])
-    addons = FileField(u'附件', validators=[FileRequired()],
-                                render_kw={'multiple':True},)
+    addons = FileField(u'附件', render_kw={'multiple':True},)
     submit = SubmitField('Submit')
 

@@ -4469,3 +4469,1243 @@ TemplateNotFound: index.html
 10.211.55.2 - - [19/Sep/2016 09:01:25] "GET /static/img/index-02.jpg HTTP/1.1" 304 -
 10.211.55.2 - - [19/Sep/2016 09:01:25] "GET /static/img/index-03.jpg HTTP/1.1" 304 -
 10.211.55.2 - - [19/Sep/2016 09:01:25] "GET /static/img/weixin.png HTTP/1.1" 304 -
+10.211.55.2 - - [19/Sep/2016 09:20:20] "GET /admin/index HTTP/1.1" 302 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/views.py:40: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = ContentForm()
+10.211.55.2 - - [19/Sep/2016 09:20:20] "GET /admin/content_edit HTTP/1.1" 200 -
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/forms.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.authors" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "contents.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/forms.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.authors" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "contents.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/views.py:40: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = ContentForm()
+10.211.55.2 - - [19/Sep/2016 09:21:50] "GET /admin/content_edit HTTP/1.1" 200 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/views.py:40: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = ContentForm()
+10.211.55.2 - - [19/Sep/2016 09:22:17] "POST /admin/content_edit HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 2000, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1991, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1567, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/views.py", line 45, in content_edit
+    addons.save(addon)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_uploads.py", line 415, in save
+    raise UploadNotAllowed()
+UploadNotAllowed
+10.211.55.2 - - [19/Sep/2016 09:22:17] "GET /admin/content_edit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 09:22:17] "GET /admin/content_edit?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 09:22:17] "GET /admin/content_edit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 09:22:17] "GET /admin/content_edit?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 09:22:17] "GET /admin/content_edit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 09:22:18] "GET /admin/content_edit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/views.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.authors" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "contents.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+Traceback (most recent call last):
+  File "./manage.py", line 7, in <module>
+    app = create_app(os.getenv('FLASK_CONFIG') or 'default')
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/__init__.py", line 35, in create_app
+    from .admin import admin as admin_blueprint
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/__init__.py", line 19, in <module>
+    from . import views,errors
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/views.py", line 55
+    else:
+       ^
+SyntaxError: invalid syntax
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.authors" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "contents.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+Traceback (most recent call last):
+  File "./manage.py", line 7, in <module>
+    app = create_app(os.getenv('FLASK_CONFIG') or 'default')
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/__init__.py", line 35, in create_app
+    from .admin import admin as admin_blueprint
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/__init__.py", line 19, in <module>
+    from . import views,errors
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/views.py", line 56
+    content = Content(  title=form.title.data,
+          ^
+IndentationError: expected an indented block
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.authors" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "contents.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.authors" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "contents.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/views.py:40: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = ContentForm()
+10.211.55.2 - - [19/Sep/2016 09:35:24] "GET /admin/content_edit HTTP/1.1" 200 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/views.py:40: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = ContentForm()
+10.211.55.2 - - [19/Sep/2016 09:35:38] "POST /admin/content_edit HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 2000, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1991, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1567, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/views.py", line 47, in content_edit
+    addons.save(addon)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_uploads.py", line 415, in save
+    raise UploadNotAllowed()
+UploadNotAllowed
+10.211.55.2 - - [19/Sep/2016 09:35:38] "GET /admin/content_edit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 09:35:38] "GET /admin/content_edit?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 09:35:38] "GET /admin/content_edit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 09:35:38] "GET /admin/content_edit?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 09:35:38] "GET /admin/content_edit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 09:35:39] "GET /admin/content_edit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/views.py:40: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = ContentForm()
+10.211.55.2 - - [19/Sep/2016 09:43:18] "POST /admin/content_edit HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 2000, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1991, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1567, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/views.py", line 47, in content_edit
+    addons.save(addon)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_uploads.py", line 415, in save
+    raise UploadNotAllowed()
+UploadNotAllowed
+10.211.55.2 - - [19/Sep/2016 09:43:18] "GET /admin/content_edit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 09:43:18] "GET /admin/content_edit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 09:43:18] "GET /admin/content_edit?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 09:43:18] "GET /admin/content_edit?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 09:43:18] "GET /admin/content_edit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/views.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.authors" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "contents.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/views.py:40: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = ContentForm()
+10.211.55.2 - - [19/Sep/2016 09:47:55] "POST /admin/content_edit HTTP/1.1" 200 -
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/views.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.authors" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "contents.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/views.py:40: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = ContentForm()
+10.211.55.2 - - [19/Sep/2016 09:48:33] "POST /admin/content_edit HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 2000, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1991, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1567, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_login/utils.py", line 228, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/views.py", line 47, in content_edit
+    addons.save(addon)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_uploads.py", line 402, in save
+    raise TypeError("storage must be a werkzeug.FileStorage")
+TypeError: storage must be a werkzeug.FileStorage
+10.211.55.2 - - [19/Sep/2016 09:48:33] "GET /admin/content_edit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 09:48:33] "GET /admin/content_edit?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 09:48:33] "GET /admin/content_edit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 09:48:34] "GET /admin/content_edit?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 09:48:34] "GET /admin/content_edit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/views.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.authors" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "contents.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/views.py:40: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = ContentForm()
+10.211.55.2 - - [19/Sep/2016 09:49:03] "POST /admin/content_edit HTTP/1.1" 200 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/views.py:40: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = ContentForm()
+10.211.55.2 - - [19/Sep/2016 09:49:08] "POST /admin/content_edit HTTP/1.1" 200 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/views.py:40: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = ContentForm()
+10.211.55.2 - - [19/Sep/2016 09:49:12] "POST /admin/content_edit HTTP/1.1" 200 -
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/views.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.authors" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "contents.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/views.py:40: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = ContentForm()
+10.211.55.2 - - [19/Sep/2016 09:52:08] "POST /admin/content_edit HTTP/1.1" 200 -
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/views.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.authors" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "contents.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/views.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.authors" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "contents.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/views.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.authors" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "contents.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/views.py:40: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = ContentForm()
+10.211.55.2 - - [19/Sep/2016 09:53:46] "POST /admin/content_edit HTTP/1.1" 200 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/views.py:40: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = ContentForm()
+10.211.55.2 - - [19/Sep/2016 09:55:07] "POST /admin/content_edit HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 09:55:09] "GET / HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 09:55:09] "GET /static/img/index-01.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [19/Sep/2016 09:55:09] "GET /static/img/index-02.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [19/Sep/2016 09:55:09] "GET /static/img/index-03.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [19/Sep/2016 09:55:09] "GET /static/img/weixin.png HTTP/1.1" 304 -
+10.211.55.2 - - [19/Sep/2016 09:55:30] "GET / HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 09:55:30] "GET /static/img/index-01.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [19/Sep/2016 09:55:30] "GET /static/img/index-02.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [19/Sep/2016 09:55:30] "GET /static/img/index-03.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [19/Sep/2016 09:55:30] "GET /static/img/weixin.png HTTP/1.1" 304 -
+10.211.55.2 - - [19/Sep/2016 09:56:15] "GET / HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 09:56:16] "GET /static/img/index-01.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [19/Sep/2016 09:56:16] "GET /static/img/index-02.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [19/Sep/2016 09:56:16] "GET /static/img/index-03.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [19/Sep/2016 09:56:16] "GET /static/img/weixin.png HTTP/1.1" 304 -
+10.211.55.2 - - [19/Sep/2016 09:56:18] "GET /admin/index HTTP/1.1" 302 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/views.py:40: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = ContentForm()
+10.211.55.2 - - [19/Sep/2016 09:56:18] "GET /admin/content_edit HTTP/1.1" 200 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/views.py:40: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = ContentForm()
+10.211.55.2 - - [19/Sep/2016 09:58:14] "POST /admin/content_edit HTTP/1.1" 200 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/views.py:40: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = ContentForm()
+10.211.55.2 - - [19/Sep/2016 09:58:20] "POST /admin/content_edit HTTP/1.1" 200 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/views.py:40: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = ContentForm()
+10.211.55.2 - - [19/Sep/2016 09:58:23] "POST /admin/content_edit HTTP/1.1" 200 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/views.py:40: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = ContentForm()
+10.211.55.2 - - [19/Sep/2016 09:58:26] "POST /admin/content_edit HTTP/1.1" 200 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/views.py:40: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = ContentForm()
+10.211.55.2 - - [19/Sep/2016 09:58:29] "POST /admin/content_edit HTTP/1.1" 200 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/views.py:40: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = ContentForm()
+10.211.55.2 - - [19/Sep/2016 09:58:32] "POST /admin/content_edit HTTP/1.1" 200 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/views.py:40: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = ContentForm()
+10.211.55.2 - - [19/Sep/2016 09:58:36] "POST /admin/content_edit HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 09:58:41] "GET / HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 09:58:41] "GET /static/img/index-01.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [19/Sep/2016 09:58:41] "GET /static/img/index-02.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [19/Sep/2016 09:58:42] "GET /static/img/index-03.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [19/Sep/2016 09:58:42] "GET /static/img/weixin.png HTTP/1.1" 304 -
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/main/views.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.authors" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "contents.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+Traceback (most recent call last):
+  File "./manage.py", line 7, in <module>
+    app = create_app(os.getenv('FLASK_CONFIG') or 'default')
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/__init__.py", line 31, in create_app
+    from .main import main as main_blueprint
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/main/__init__.py", line 19, in <module>
+    from . import views,errors
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/main/views.py", line 25
+    contents = Content.query.filter.by(.order_by(Content.timestampdesc()
+                                       ^
+SyntaxError: invalid syntax
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.authors" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "contents.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.authors" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "contents.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+10.211.55.2 - - [19/Sep/2016 10:43:00] "GET / HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 2000, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1991, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1567, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/main/views.py", line 25, in index
+    newslist = Content.query.filter_by(type="news").limit(5).order_by(Content.timestampdesc())
+AttributeError: type object 'Content' has no attribute 'timestampdesc'
+10.211.55.2 - - [19/Sep/2016 10:43:00] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 10:43:00] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 10:43:00] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 10:43:00] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 10:43:00] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 10:43:00] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/main/views.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.authors" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "contents.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/main/views.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.authors" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "contents.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.authors" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "contents.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+Traceback (most recent call last):
+  File "./manage.py", line 16, in <module>
+    manager.run()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_script/__init__.py", line 412, in run
+    result = self.handle(sys.argv[0], sys.argv[1:])
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_script/__init__.py", line 383, in handle
+    res = handle(*args, **config)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_script/commands.py", line 425, in __call__
+    **self.server_options)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/app.py", line 843, in run
+    run_simple(host, port, self, **options)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/werkzeug/serving.py", line 677, in run_simple
+    s.bind((hostname, port))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+10.211.55.2 - - [19/Sep/2016 10:44:40] "GET / HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 2000, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1991, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1567, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/main/views.py", line 25, in index
+    newslist = Content.query.filter_by(type="news").limit(5).order_by(Content.timestamp.desc())
+  File "<string>", line 2, in order_by
+    
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/sqlalchemy/orm/base.py", line 200, in generate
+    assertion(self, fn.__name__)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 401, in _no_limit_offset
+    % (meth, meth)
+InvalidRequestError: Query.order_by() being called on a Query which already has LIMIT or OFFSET applied. To modify the row-limited results of a  Query, call from_self() first.  Otherwise, call order_by() before limit() or offset() are applied.
+10.211.55.2 - - [19/Sep/2016 10:44:40] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 10:44:40] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 10:44:40] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 10:44:40] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 10:44:40] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 10:44:41] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/main/views.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.authors" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "contents.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+10.211.55.2 - - [19/Sep/2016 10:45:36] "GET / HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 10:45:37] "GET /static/img/index-01.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [19/Sep/2016 10:45:37] "GET /static/img/index-02.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [19/Sep/2016 10:45:37] "GET /static/img/index-03.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [19/Sep/2016 10:45:37] "GET /static/img/weixin.png HTTP/1.1" 304 -
+10.211.55.2 - - [19/Sep/2016 10:46:49] "GET / HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 10:46:49] "GET /static/img/index-01.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [19/Sep/2016 10:46:49] "GET /static/img/index-02.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [19/Sep/2016 10:46:49] "GET /static/img/index-03.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [19/Sep/2016 10:46:49] "GET /static/img/weixin.png HTTP/1.1" 304 -
+10.211.55.2 - - [19/Sep/2016 10:49:55] "GET / HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 10:49:55] "GET /static/img/index-01.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [19/Sep/2016 10:49:55] "GET /static/img/index-02.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [19/Sep/2016 10:49:55] "GET /static/img/index-03.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [19/Sep/2016 10:49:55] "GET /static/img/weixin.png HTTP/1.1" 304 -
+10.211.55.2 - - [19/Sep/2016 10:49:56] "GET / HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 10:49:56] "GET /static/img/index-01.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [19/Sep/2016 10:49:56] "GET /static/img/index-02.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [19/Sep/2016 10:49:56] "GET /static/img/index-03.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [19/Sep/2016 10:49:56] "GET /static/img/weixin.png HTTP/1.1" 304 -
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/main/views.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.authors" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "contents.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+Traceback (most recent call last):
+  File "./manage.py", line 7, in <module>
+    app = create_app(os.getenv('FLASK_CONFIG') or 'default')
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/__init__.py", line 32, in create_app
+    app.register_blueprint(main_blueprint)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/app.py", line 65, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/app.py", line 968, in register_blueprint
+    blueprint.register(self, options, first_registration)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/blueprints.py", line 154, in register
+    deferred(state)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/blueprints.py", line 173, in <lambda>
+    s.add_url_rule(rule, endpoint, view_func, **options))
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/blueprints.py", line 76, in add_url_rule
+    view_func, defaults=defaults, **options)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/app.py", line 65, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask/app.py", line 1068, in add_url_rule
+    'existing endpoint function: %s' % endpoint)
+AssertionError: View function mapping is overwriting an existing endpoint function: main.basic
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.authors" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "contents.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.authors" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "contents.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+10.211.55.2 - - [19/Sep/2016 23:08:54] "GET /content/news HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 23:27:18] "GET /content/news HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 23:27:19] "GET /content/news HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 23:27:21] "GET /content/news HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 23:27:21] "GET /content/news HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 23:27:23] "GET /content/news HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 23:31:42] "GET /content/news HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 23:31:43] "GET /content/news HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 23:57:16] "GET /admin/index HTTP/1.1" 302 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/views.py:40: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = ContentForm()
+10.211.55.2 - - [19/Sep/2016 23:57:17] "GET /admin/content_edit HTTP/1.1" 200 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/views.py:40: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = ContentForm()
+10.211.55.2 - - [19/Sep/2016 23:57:37] "POST /admin/content_edit HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 23:57:44] "GET / HTTP/1.1" 200 -
+10.211.55.2 - - [19/Sep/2016 23:57:44] "GET /static/img/index-01.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [19/Sep/2016 23:57:44] "GET /static/img/index-02.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [19/Sep/2016 23:57:44] "GET /static/img/index-03.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [19/Sep/2016 23:57:44] "GET /static/img/weixin.png HTTP/1.1" 304 -
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/main/views.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.authors" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "contents.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+ * Detected change in '/home/hzc989/TropicalDiseaseResearchWebsite/app/main/views.py', reloading
+ * Restarting with stat
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "papers.authors" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py:161: SAWarning: The IN-predicate on "contents.tag" was invoked with an empty sequence. This results in a contradiction, which nonetheless can be expensive to evaluate.  Consider alternative strategies for improved performance.
+  'strategies for improved performance.' % expr)
+/home/hzc989/TropicalDiseaseResearchWebsite/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py:800: UserWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.
+  warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True to suppress this warning.')
+ * Debugger is active!
+ * Debugger pin code: 139-938-390
+10.211.55.2 - - [20/Sep/2016 03:49:24] "GET / HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 2000, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1991, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1567, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/main/views.py", line 27, in index
+    return render_template('index.html', newslist=newslist, noticelist=noticelist)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    context, ctx.app)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/templating.py", line 116, in _render
+    rv = template.render(context)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/jinja2/environment.py", line 989, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/jinja2/environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/base.html", line 1, in top-level template code
+    {% extends "bootstrap/base.html" %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 1, in top-level template code
+    {% block doc -%}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 4, in block "doc"
+    {%- block html %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 20, in block "html"
+    {% block body -%}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 23, in block "body"
+    {% block content -%}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/base.html", line 63, in block "content"
+    {% block page_content %}{% endblock %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/index.html", line 24, in block "page_content"
+    <li class="list-group-item"><a href="{{ url_for('main.newsDisplay(news.id)') }}">{{ news.title }}</a></li>
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/helpers.py", line 332, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1811, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/helpers.py", line 322, in url_for
+    force_external=external)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/werkzeug/routing.py", line 1758, in build
+    raise BuildError(endpoint, values, method, self)
+BuildError: Could not build url for endpoint 'main.newsDisplay(news.id)'. Did you mean 'main.newsDisplay' instead?
+10.211.55.2 - - [20/Sep/2016 03:49:24] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:49:24] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:49:24] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:49:24] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:49:24] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:49:24] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:50:17] "GET / HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 2000, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1991, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1567, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/main/views.py", line 27, in index
+    return render_template('index.html', newslist=newslist, noticelist=noticelist)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    context, ctx.app)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/templating.py", line 116, in _render
+    rv = template.render(context)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/jinja2/environment.py", line 989, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/jinja2/environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/base.html", line 1, in top-level template code
+    {% extends "bootstrap/base.html" %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 1, in top-level template code
+    {% block doc -%}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 4, in block "doc"
+    {%- block html %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 20, in block "html"
+    {% block body -%}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 23, in block "body"
+    {% block content -%}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/base.html", line 63, in block "content"
+    {% block page_content %}{% endblock %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/index.html", line 24, in block "page_content"
+    <li class="list-group-item"><a href="{{ url_for('main.newsDisplay()') }}">{{ news.title }}</a></li>
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/helpers.py", line 332, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1811, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/helpers.py", line 322, in url_for
+    force_external=external)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/werkzeug/routing.py", line 1758, in build
+    raise BuildError(endpoint, values, method, self)
+BuildError: Could not build url for endpoint 'main.newsDisplay()'. Did you mean 'main.newsDisplay' instead?
+10.211.55.2 - - [20/Sep/2016 03:50:17] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:50:17] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:50:17] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:50:17] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:50:17] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:50:18] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:50:28] "GET / HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 2000, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1991, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1567, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/main/views.py", line 27, in index
+    return render_template('index.html', newslist=newslist, noticelist=noticelist)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    context, ctx.app)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/templating.py", line 116, in _render
+    rv = template.render(context)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/jinja2/environment.py", line 989, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/jinja2/environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/base.html", line 1, in top-level template code
+    {% extends "bootstrap/base.html" %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 1, in top-level template code
+    {% block doc -%}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 4, in block "doc"
+    {%- block html %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 20, in block "html"
+    {% block body -%}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 23, in block "body"
+    {% block content -%}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/base.html", line 63, in block "content"
+    {% block page_content %}{% endblock %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/index.html", line 24, in block "page_content"
+    <li class="list-group-item"><a href="{{ url_for('main.newsDisplay') }}">{{ news.title }}</a></li>
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/helpers.py", line 332, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1811, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/helpers.py", line 322, in url_for
+    force_external=external)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/werkzeug/routing.py", line 1758, in build
+    raise BuildError(endpoint, values, method, self)
+BuildError: Could not build url for endpoint 'main.newsDisplay'. Did you forget to specify values ['id']?
+10.211.55.2 - - [20/Sep/2016 03:50:28] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:50:28] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:50:28] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:50:29] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:50:29] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:50:29] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:53:30] "GET / HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:53:30] "GET /static/img/index-01.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 03:53:30] "GET /static/img/index-02.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 03:53:30] "GET /static/img/index-03.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 03:53:30] "GET /static/img/weixin.png HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 03:53:33] "GET /content/news/16 HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:53:36] "GET /content/news/8 HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:53:39] "GET /content/news/7 HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:53:43] "GET /content/news/8 HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:53:47] "GET /content/news/16 HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:54:18] "GET /content/news/16 HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:54:58] "GET / HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:54:58] "GET /static/img/index-01.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 03:54:58] "GET /static/img/index-02.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 03:54:58] "GET /static/img/index-03.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 03:54:58] "GET /static/img/weixin.png HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 03:55:00] "GET /content/news/16 HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 2000, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1991, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1567, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/main/views.py", line 36, in newsDisplay
+    return render_template('main/newsContent.html',content=content)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    context, ctx.app)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/templating.py", line 116, in _render
+    rv = template.render(context)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/jinja2/environment.py", line 989, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/jinja2/environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/main/newsContent.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/base.html", line 1, in top-level template code
+    {% extends "bootstrap/base.html" %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 1, in top-level template code
+    {% block doc -%}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 4, in block "doc"
+    {%- block html %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 20, in block "html"
+    {% block body -%}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 23, in block "body"
+    {% block content -%}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/base.html", line 63, in block "content"
+    {% block page_content %}{% endblock %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/main/newsContent.html", line 16, in block "page_content"
+    <h2>{{ news.title }}</h2>
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/jinja2/environment.py", line 408, in getattr
+    return getattr(obj, attribute)
+UndefinedError: 'news' is undefined
+10.211.55.2 - - [20/Sep/2016 03:55:00] "GET /content/news/16?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:55:00] "GET /content/news/16?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:55:00] "GET /content/news/16?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:55:00] "GET /content/news/16?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:55:00] "GET /content/news/16?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:55:00] "GET /content/news/16?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:56:05] "GET /content/news/16 HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:56:26] "GET /content/news/8 HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:56:32] "GET /content/news/6 HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:56:35] "GET /content/news/5 HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:56:41] "GET /content/news/16 HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:56:43] "GET /content/news/8 HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:56:51] "GET /content/news/7 HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:57:59] "GET /content/news/7 HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:58:30] "GET /content/news/7 HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:58:34] "GET / HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 03:58:34] "GET /static/img/index-01.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 03:58:34] "GET /static/img/index-02.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 03:58:34] "GET /static/img/index-03.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 03:58:34] "GET /static/img/weixin.png HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 03:58:35] "GET /content/news/16 HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 04:07:13] "GET /content/news/16 HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 04:15:41] "GET /content/news/16 HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 04:15:53] "GET /content/news/7 HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 04:22:13] "GET /content/news/7 HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 04:22:27] "GET /content/news/7 HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 04:22:28] "GET /content/news/7 HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 04:22:29] "GET /content/news/7 HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 04:22:30] "GET /content/news/7 HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 04:22:32] "GET / HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 04:22:32] "GET /static/img/index-01.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 04:22:32] "GET /static/img/index-02.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 04:22:32] "GET /static/img/index-03.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 04:22:32] "GET /static/img/weixin.png HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 04:22:34] "GET /content/news/16 HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 04:22:44] "GET /content/news/16 HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 04:22:55] "GET /content/news/16 HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 04:23:14] "GET / HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 04:23:14] "GET /static/img/index-01.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 04:23:14] "GET /static/img/index-02.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 04:23:14] "GET /static/img/index-03.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 04:23:14] "GET /static/img/weixin.png HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 04:23:15] "GET /content/news/8 HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 04:23:19] "GET / HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 04:23:19] "GET /static/img/index-01.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 04:23:19] "GET /static/img/index-02.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 04:23:19] "GET /static/img/index-03.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 04:23:19] "GET /static/img/weixin.png HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 04:25:18] "GET / HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 04:25:18] "GET /static/img/index-01.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 04:25:18] "GET /static/img/index-02.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 04:25:18] "GET /static/img/index-03.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 04:25:18] "GET /static/img/weixin.png HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 04:25:20] "GET /content/news/16 HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 04:26:53] "GET / HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 04:26:53] "GET /static/img/index-01.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 04:26:53] "GET /static/img/index-02.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 04:26:53] "GET /static/img/index-03.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 04:26:53] "GET /static/img/weixin.png HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 04:26:55] "GET /content/news/5 HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 04:29:30] "GET /content/news/5 HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 04:29:42] "GET / HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 04:29:42] "GET /static/img/index-01.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 04:29:42] "GET /static/img/index-02.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 04:29:42] "GET /static/img/index-03.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 04:29:42] "GET /static/img/weixin.png HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 04:29:43] "GET /content/news/16 HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 04:29:55] "GET /admin/index HTTP/1.1" 302 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/views.py:40: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = ContentForm()
+10.211.55.2 - - [20/Sep/2016 04:29:56] "GET /admin/content_edit HTTP/1.1" 200 -
+/home/hzc989/TropicalDiseaseResearchWebsite/app/admin/views.py:40: FlaskWTFDeprecationWarning: "flask_wtf.Form" has been renamed to "FlaskForm" and will be removed in 1.0.
+  form = ContentForm()
+10.211.55.2 - - [20/Sep/2016 04:30:16] "POST /admin/content_edit HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 04:30:20] "GET / HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 04:30:20] "GET /static/img/index-01.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 04:30:21] "GET /static/img/index-02.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 04:30:21] "GET /static/img/index-03.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 04:30:21] "GET /static/img/weixin.png HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 04:30:22] "GET /content/news/17 HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 04:31:21] "GET /content/news/17 HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 2000, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1991, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1567, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/main/views.py", line 36, in newsDisplay
+    return render_template('main/newsContent.html',content=content)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    context, ctx.app)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/templating.py", line 116, in _render
+    rv = template.render(context)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/jinja2/environment.py", line 989, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/jinja2/environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/main/newsContent.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/base.html", line 1, in top-level template code
+    {% extends "bootstrap/base.html" %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 1, in top-level template code
+    {% block doc -%}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 4, in block "doc"
+    {%- block html %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 20, in block "html"
+    {% block body -%}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 23, in block "body"
+    {% block content -%}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/base.html", line 63, in block "content"
+    {% block page_content %}{% endblock %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/main/newsContent.html", line 17, in block "page_content"
+    <footer>{{ moment(content.timestamp).calenda() }}</footer>
+UndefinedError: 'flask_moment._moment object' has no attribute 'calenda'
+10.211.55.2 - - [20/Sep/2016 04:31:21] "GET /content/news/17?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 04:31:21] "GET /content/news/17?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 04:31:21] "GET /content/news/17?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 04:31:21] "GET /content/news/17?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 04:31:21] "GET /content/news/17?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 04:31:21] "GET /content/news/17?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 04:31:36] "GET /content/news/17 HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 04:32:04] "GET /content/news/17 HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 04:32:17] "GET /content/news/17 HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 04:33:47] "GET /content/news/17 HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 08:07:30] "GET /content/news/17 HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 08:52:11] "GET / HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 08:52:12] "GET /static/img/index-01.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 08:52:12] "GET /static/img/index-02.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 08:52:12] "GET /static/img/index-03.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 08:52:12] "GET /static/img/weixin.png HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 08:52:14] "GET /content/news/17 HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 2000, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1991, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1567, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/main/views.py", line 36, in newsDisplay
+    return render_template('main/newsContent.html',content=content)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    context, ctx.app)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/templating.py", line 116, in _render
+    rv = template.render(context)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/jinja2/environment.py", line 989, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/jinja2/environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/main/newsContent.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/base.html", line 1, in top-level template code
+    {% extends "bootstrap/base.html" %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 1, in top-level template code
+    {% block doc -%}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 4, in block "doc"
+    {%- block html %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 20, in block "html"
+    {% block body -%}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 23, in block "body"
+    {% block content -%}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/base.html", line 63, in block "content"
+    {% block page_content %}{% endblock %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/main/newsContent.html", line 28, in block "page_content"
+    {% for (k,v) in eval(content.addons_uri) %}
+UndefinedError: 'eval' is undefined
+10.211.55.2 - - [20/Sep/2016 08:52:14] "GET /content/news/17?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 08:52:14] "GET /content/news/17?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 08:52:14] "GET /content/news/17?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 08:52:14] "GET /content/news/17?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 08:52:14] "GET /content/news/17?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 08:52:14] "GET /content/news/17?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 09:16:45] "GET /content/news/17 HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 2000, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1991, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1567, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/main/views.py", line 36, in newsDisplay
+    return render_template('main/newsContent.html',content=content)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    context, ctx.app)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/templating.py", line 116, in _render
+    rv = template.render(context)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/jinja2/environment.py", line 989, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/jinja2/environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/main/newsContent.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/base.html", line 1, in top-level template code
+    {% extends "bootstrap/base.html" %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 1, in top-level template code
+    {% block doc -%}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 4, in block "doc"
+    {%- block html %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 20, in block "html"
+    {% block body -%}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 23, in block "body"
+    {% block content -%}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/base.html", line 63, in block "content"
+    {% block page_content %}{% endblock %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/main/newsContent.html", line 28, in block "page_content"
+    {% for (k,v) in content.addons_uri %}
+TypeError: 'NoneType' object is not iterable
+10.211.55.2 - - [20/Sep/2016 09:16:45] "GET /content/news/17?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 09:16:45] "GET /content/news/17?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 09:16:45] "GET /content/news/17?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 09:16:45] "GET /content/news/17?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 09:16:45] "GET /content/news/17?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 09:16:46] "GET /content/news/17?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 09:19:31] "GET /content/news/17 HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 09:19:36] "GET / HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 09:19:36] "GET /static/img/index-01.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 09:19:36] "GET /static/img/index-02.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 09:19:36] "GET /static/img/index-03.jpg HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 09:19:36] "GET /static/img/weixin.png HTTP/1.1" 304 -
+10.211.55.2 - - [20/Sep/2016 09:19:37] "GET /content/news/16 HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 2000, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1991, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1567, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/main/views.py", line 36, in newsDisplay
+    return render_template('main/newsContent.html',content=content)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    context, ctx.app)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/templating.py", line 116, in _render
+    rv = template.render(context)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/jinja2/environment.py", line 989, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/jinja2/environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/main/newsContent.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/base.html", line 1, in top-level template code
+    {% extends "bootstrap/base.html" %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 1, in top-level template code
+    {% block doc -%}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 4, in block "doc"
+    {%- block html %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 20, in block "html"
+    {% block body -%}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 23, in block "body"
+    {% block content -%}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/base.html", line 63, in block "content"
+    {% block page_content %}{% endblock %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/main/newsContent.html", line 29, in block "page_content"
+    {% for (k,v) in content.addons_uri %}
+ValueError: need more than 1 value to unpack
+10.211.55.2 - - [20/Sep/2016 09:19:37] "GET /content/news/16?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 09:19:37] "GET /content/news/16?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 09:19:37] "GET /content/news/16?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 09:19:37] "GET /content/news/16?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 09:19:38] "GET /content/news/16?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 09:19:38] "GET /content/news/16?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 09:21:12] "GET /content/news/16 HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 2000, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1991, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1567, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/main/views.py", line 36, in newsDisplay
+    return render_template('main/newsContent.html',content=content)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    context, ctx.app)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask/templating.py", line 116, in _render
+    rv = template.render(context)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/jinja2/environment.py", line 989, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/jinja2/environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/main/newsContent.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/base.html", line 1, in top-level template code
+    {% extends "bootstrap/base.html" %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 1, in top-level template code
+    {% block doc -%}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 4, in block "doc"
+    {%- block html %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 20, in block "html"
+    {% block body -%}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/venv/lib/python2.7/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 23, in block "body"
+    {% block content -%}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/base.html", line 63, in block "content"
+    {% block page_content %}{% endblock %}
+  File "/home/hzc989/TropicalDiseaseResearchWebsite/app/templates/main/newsContent.html", line 29, in block "page_content"
+    {% for (k,v) in eval(content.addons_uri) %}
+UndefinedError: 'eval' is undefined
+10.211.55.2 - - [20/Sep/2016 09:21:12] "GET /content/news/16?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 09:21:12] "GET /content/news/16?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 09:21:12] "GET /content/news/16?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 09:21:12] "GET /content/news/16?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 09:21:12] "GET /content/news/16?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+10.211.55.2 - - [20/Sep/2016 09:21:12] "GET /content/news/16?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -

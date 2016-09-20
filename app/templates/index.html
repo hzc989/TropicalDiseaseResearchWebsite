@@ -20,11 +20,9 @@
                             <h3 class="panel-title">新闻动态</h3>
                         </div>
                         <ul class="list-group">
-                            <li class="list-group-item"><a>我是新闻标题</a></li>
-                            <li class="list-group-item"><a>我是新闻标题</a></li>
-                            <li class="list-group-item"><a>我是新闻标题</a></li>
-                            <li class="list-group-item"><a>我是新闻标题</a></li>
-                            <li class="list-group-item"><a>我是新闻标题</a></li>
+                            {% for news in newslist %}
+                            <li class="list-group-item"><a href="{{ url_for( 'main.newsDisplay',id=news.id ) }}">{{ news.title }}</a></li>
+                            {% endfor %}
                             <li class="list-group-item "><a href="#">更多</a></li>
                         </ul>
                     </div>
@@ -33,11 +31,9 @@
                         <h3 class="panel-title">通知公告</h3>
                      </div>
                       <ul class="list-group">
-                        <li class="list-group-item"><a>我是通知公告</a></li>
-                        <li class="list-group-item"><a>我是通知公告</a></li>
-                        <li class="list-group-item"><a>我是通知公告</a></li>
-                        <li class="list-group-item"><a>我是通知公告</a></li>
-                        <li class="list-group-item"><a>我是通知公告</a></li>
+                            {% for notice in noticelist %}
+                            <li class="list-group-item"><a>{{ notice.title }}</a></li>
+                            {% endfor %}
                         <li class="list-group-item"><a href="#">更多</a></li>
                       </ul>
                 </div>

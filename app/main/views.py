@@ -18,20 +18,19 @@ from flask import render_template, session, redirect, url_for
 from . import main
 #from .forms import NameForm
 #from .. import db
-#from ..models import User
+from ..models import Content
 
 @main.route('/', methods=['GET', 'POST'])
 def index():
-    #form = NameForm()
-    #if form.validate_on_submit():
-    #    # ...
-    #    return redirect(url_for('.index'))
-    #return render_template('index.html',
-    #                        form=form, name=session.get('name'),
-    #                        known=session.get('known', False),
-    #                        current_time=datetime.utcnow())
-    return render_template('index.html')
+    newslist = Content.query.filter_by(type="news").order_by(Content.timestamp.desc()).limit(5)
+    noticelist = Content.query.filter_by(type="notice").order_by(Content.timestamp.desc()).limit(5)
+    return render_template('index.html', newslist=newslist, noticelist=noticelist)
 
 @main.route('/intro/basic', methods=['GET'])
 def basic():
     return render_template('intro/basic.html')
+
+@main.route('/content/news/<int:id>', methods=['GET'])
+def newsDisplay(id):
+    content = Content.query.get_or_404(id)
+    return render_template('main/newsContent.html',content=content)

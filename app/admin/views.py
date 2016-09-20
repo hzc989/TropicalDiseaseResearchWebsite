@@ -41,18 +41,28 @@ def content_edit():
     if form.validate_on_submit():
         addons_uri_dict = {}
         if request.method == 'POST' and 'addons' in request.files:
-            for addon in request.files.getlist('addons'):
-                addons.save(addon)
-                addons_uri_dict[addon.filename] = addons.url(addon.filename)
-        content = Content(  title=form.title.data,
+            Files = request.files.get('addons')
+            if Files:
+                for addon in request.files.getlist('addons'):
+                    addons.save(addon)
+                    addons_uri_dict[addon.filename] = addons.url(addon.filename)
+                content = Content(  title=form.title.data,
                             addons_uri = str(addons_uri_dict),
                             content=form.body.data,
                             type=form.type.data,
                             poster_uid=current_user.id,
                         )
+                flashmsg = "content and addons saved."
+            else:
+                content = Content(  title=form.title.data,
+                            content=form.body.data,
+                            type=form.type.data,
+                            poster_uid=current_user.id,
+                        )
+                flashmsg = "content saved."
         db.session.add(content)
         db.session.commit()
-        flash("content and addons saved.")
+        flash(flashmsg)
     return render_template('admin/content_editor.html',
                             form=form, 
                             current_time=datetime.utcnow())
