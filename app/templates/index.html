@@ -21,9 +21,9 @@
                         </div>
                         <ul class="list-group">
                             {% for news in newslist %}
-                            <li class="list-group-item"><a href="{{ url_for( 'main.newsDisplay',id=news.id ) }}">{{ news.title }}</a></li>
+                            <li class="list-group-item"><a href="{{ url_for( 'main.contentDisplay', id=news.id, type='news' ) }}">{{ news.title }}</a></li>
                             {% endfor %}
-                            <li class="list-group-item "><a href="#">更多</a></li>
+                            <li class="list-group-item "><a href="{{ url_for('main.contentList',type='news') }}">更多</a></li>
                         </ul>
                     </div>
                 <div class="panel  panel-default">
@@ -32,9 +32,9 @@
                      </div>
                       <ul class="list-group">
                             {% for notice in noticelist %}
-                            <li class="list-group-item"><a>{{ notice.title }}</a></li>
+                            <li class="list-group-item"><a href="{{ url_for( 'main.contentDisplay', id=notice.id, type='notice' ) }}">{{ notice.title }}</a></li>
                             {% endfor %}
-                        <li class="list-group-item"><a href="#">更多</a></li>
+                        <li class="list-group-item"><a href="{{ url_for('main.contentList',type='notice') }}">更多</a></li>
                       </ul>
                 </div>
                 <div class="panel panel-default">

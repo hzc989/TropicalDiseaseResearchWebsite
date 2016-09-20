@@ -5,8 +5,13 @@
         <div class="row">
             <div class="col-md-12">
                 <ol class="breadcrumb">
-                    <li><a href="#">首页</a></li>
-                    <li class="active">新闻动态</li>
+                    <li><a href="{{ url_for('main.index') }}">首页</a></li>
+                    {% if content.type == "news" %}
+                    <li class="active"><a href="{{ url_for('main.contentList',type="news") }}">新闻动态</a></li>
+                    {% elif content.type == "notice" %}
+                    <li class="active"><a href="{{ url_for('main.contentList',type="notice") }}">通知公告</a></li>
+                    {% endif %}
+                    <li class="active">详情页</li>
                 </ol>
             </div>
         </div>
@@ -20,14 +25,14 @@
             
             <div class="col-md-10 col-md-offset-1" >
                 <div style="white-space:pre-wrap;WORD-WRAP:break-word;">{{ content.content }}</div>
-                {% if content.addons_uri %}
+                {% if addons_uri %}
                 <hr>
                 <div class="panel panel-default">
                     <div class="panel-heading">附件</div>
                         <div class="panel-body">
                         <ul class="list-unstyled">
-                            {% for (k,v) in eval(content.addons_uri) %}
-                            <li><a href="url_for('main.downld')">{{ k,v }}</a></li>
+                            {% for key, value in addons_uri.iteritems() %}
+                            <li><a href="{{value|e}}">{{ key|e}}</a></li>
                             {% endfor %}
                         </ul>
                     </div>

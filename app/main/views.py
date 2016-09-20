@@ -14,7 +14,7 @@
 '''
 
 from datetime import datetime
-from flask import render_template, session, redirect, url_for
+from flask import render_template, session, redirect, url_for, request
 from . import main
 #from .forms import NameForm
 #from .. import db
@@ -30,7 +30,21 @@ def index():
 def basic():
     return render_template('intro/basic.html')
 
-@main.route('/content/news/<int:id>', methods=['GET'])
-def newsDisplay(id):
+@main.route('/content/<type>', methods=['GET'])
+def contentList(type):
+    page = request.args.get('page', 1, type=int)
+    pagination = Content.query.filter_by(type=type).order_by(Content.timestamp.desc()).paginate(
+        page, per_page=10, error_out=False)
+    contents = pagination.items
+    return render_template('main/contentList.html', contents=contents, 
+            type=type, pagination=pagination)
+
+@main.route('/content/<type>/<int:id>', methods=['GET'])
+def contentDisplay(id,type):
     content = Content.query.get_or_404(id)
-    return render_template('main/newsContent.html',content=content)
+    if content.addons_uri:
+        addons_uri = eval(content.addons_uri)
+        return render_template('main/contentDisplay.html',content=content, addons_uri=addons_uri)
+    else:
+        return render_template('main/contentDisplay.html',content=content)
+

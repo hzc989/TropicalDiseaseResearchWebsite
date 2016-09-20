@@ -28,10 +28,9 @@ from .forms import ContentForm
 @login_required
 def index():
     if current_user.role == "user":
-        flash("you're not allowed to the admin pages.")
+        flash("not allowed. Redirect to index page.")
         return render_template('index.html')
     else:
-        flash("welcome back! %s" %current_user.truename)
         return redirect(url_for('admin.content_edit'))
 
 @admin.route('/content_edit', methods=['GET', 'POST'])

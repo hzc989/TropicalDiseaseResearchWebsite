@@ -29,6 +29,26 @@ class User(UserMixin,db.Model):
     def verify_password(self, password):
         return check_password_hash(self.password_hash, password)
     
+    @staticmethod
+    def generate_fake(count=10,r='user'):
+        from sqlalchemy.exc import IntegrityError
+        from random import seed
+        import forgery_py
+
+        seed()
+        for i in range(count):
+            u = User(username=forgery_py.internet.user_name(True),
+                     truename=forgery_py.name.full_name(),
+                     role=r,
+                     password=forgery_py.lorem_ipsum.word(),
+                     member_since=forgery_py.date.date(True),
+                     permit_login=True)
+            db.session.add(u)
+            try:
+                db.session.commit()
+            except IntegrityError:
+                db.session.rollback()
+
     def __repr__(self):
         return '<User %r>' % self.username
 
@@ -47,7 +67,7 @@ class Paper(db.Model):
     poster_uid = db.Column(db.Integer, db.ForeignKey('users.id'))
     authors = db.Column(db.Enum, nullable=False)
     journal = db.Column(db.String(64), nullable=False)
-    
+
     def __repr__(self):
         return '<Paper %r>' % self.name
 
@@ -61,6 +81,23 @@ class Content(db.Model):
     timestamp = db.Column(db.DateTime, index=True, default=datetime.utcnow)
     type = db.Column(db.Enum('news', 'notice', 'datatools'))
     poster_uid = db.Column(db.Integer, db.ForeignKey('users.id'))
+    
+    @staticmethod 
+    def generate_fake(count=50,t='news'):
+        from sqlalchemy.exc import IntegrityError
+        from random import seed, randint
+        import forgery_py
+
+        seed()
+        user_count = User.query.filter_by(role='admin').count()
+        for i in range(count):
+            u = User.query.filter_by(role='admin').offset(randint(0, user_count - 1)).first()
+            p = Content(title=forgery_py.lorem_ipsum.title(),
+                        content=forgery_py.lorem_ipsum.sentences(randint(1, 5)),
+                        type=t,
+                        poster=u)
+            db.session.add(p)
+            db.session.commit()
     
     def __repr__(self):
         return '<Content %r>' % self.title

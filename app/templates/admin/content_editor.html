@@ -1,13 +1,20 @@
 {% extends "base.html" %}
 {% import "bootstrap/wtf.html" as wtf %}
 
-{% block title %}TRDW - edit content{% endblock %}
+{% block title %}TRDW - 内容发布{% endblock %}
 
 {% block page_content %}
-<div class="page-header">
-    <h1>edit</h1>
+<div class="row">
+    <div class="col-md-14">
+        <ol class="breadcrumb">
+            <li><a href="#">管理后台</a></li>
+            <li class="active">内容发布</li>
+        </ol>
+    </div>
 </div>
-<div class="col-md-4">
-    {{ wtf.quick_form(form) }}
+<div class="row">
+    <div class="col-md-12 well">
+        {{ wtf.quick_form(form) }}
+    </div>
 </div>
 {% endblock %}
